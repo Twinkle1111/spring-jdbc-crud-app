@@ -38,9 +38,9 @@ public class RepositoryImpl implements ITicketRepository{
 	}
 
 	@Override
-	public Ticket deleteTicketById(int id) {
+	public int deleteTicketById(int id) {
 		// TODO Auto-generated method stub
-		return null;
+		return 0;
 	}
 
 	@Override
